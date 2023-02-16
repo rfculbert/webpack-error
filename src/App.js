@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+const db = require('../src/util/database');
+
+// db.execute('SELECT * FROM Day-Planner')
+
 function App() {
   return (
     <div className="App">
